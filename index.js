@@ -22,7 +22,7 @@ fetch(baseURL)
     .then(json => {
         let pokeArr = json.results
         console.log(pokeArr)
-        let pokemonUrl = pokeArr[244].url
+        let pokemonUrl = pokeArr[835].url
         console.log(pokemonUrl);
 
         fetch(pokemonUrl)
