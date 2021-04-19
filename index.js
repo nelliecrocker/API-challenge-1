@@ -1,8 +1,8 @@
 const baseURL = "https://pokeapi.co/api/v2/pokemon?limit=2000/"
 
 const displayImage = (pokeImage, pokeName) => {
-    let boltund = document.getElementById("boltund") //Boltund 835
-    let pokeOne = document.getElementById("pokeOne")
+    let boltund = document.getElementById("boltund") //Boltund image 835
+    let pokeOne = document.getElementById("pokeOne") // Boltund name
     let stoutland = document.getElementById("stoutland") //Stoutland 507
     //     let imageThree = document.getElementById("imageThree") //Houndoom 228
     //     let imageFour = document.getElementById("imageFour") //Arcanine 58
