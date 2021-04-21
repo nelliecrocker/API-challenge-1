@@ -1,9 +1,10 @@
 .body-color {
     background-color: black;
-}
+    }
 
 #header-image {
     margin-bottom: 50px;
+    /* max-width: auto; */
 }
 
 h4 {
@@ -15,6 +16,7 @@ h4 {
     color: white;
     
 }
+/* Main button to load cards */
 
 #primary-button{
     background-color: #ffde59;
@@ -31,14 +33,17 @@ h4 {
 }
 .container {
     margin-top: 50px;
+    display: flex;
     
 }
 
 .card {
-    display: flex;
     text-align: center;
     text-transform:capitalize;
     margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
     
     
     
