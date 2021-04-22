@@ -18,7 +18,7 @@ const identifyPokemon = () => {
     .then(json => {
         let stoutlandName = json.name
         let stoutlandImg = json.sprites.other['official-artwork'].front_default
-        let stoutlandLink = "https://www.petfinder.com/search/dogs-for-adoption/us/in/46055/?breed%5B0%5D=American+Staffordshire+Terrier&distance=Anywhere"
+        let stoutlandLink = "https://www.petfinder.com/search/dogs-for-adoption/us/in/46055/?breed%5B0%5D=Scottish+Terrier&distance=Anywhere"
         let stoutland = [stoutlandName, stoutlandImg, stoutlandLink]
         console.log(stoutland);
         displayPokemon(stoutland)
@@ -83,7 +83,7 @@ const displayPokemon = (pokemon) => {
         let button = document.createElement("a")
         button.className = "button-colors" // assigns class to button
         button.href = pokemon[2]
-        button.innerText ="Adopt Me!"
+        button.innerText = "Adopt Me"
 
         // card.appendChild(card)
         card.appendChild(card_img)
